@@ -1,0 +1,176 @@
+.container {
+    margin: 0 auto;
+    width: 960px;
+ }
+
+.footer{
+    margin: 0;
+}
+
+.footer p{
+    margin-top: 4;
+    padding: 0;
+    border: 0;
+    text-align: center;
+
+}
+
+hr{
+    margin: 0;
+    border: 0;
+    color:#CCC;
+    background-color: #CCC;
+    height: 1px;
+}
+
+.header p{
+    float: right;
+    margin-top: 70;
+}
+
+.footer a {
+    color: #15a2db;
+    font-weight: bold;
+}
+.place a {
+    color: #15a2db;
+    font-weight: bold;
+}
+
+.header a {
+    color: #15a2db;
+    font-weight: bold;
+}
+
+
+
+.video{
+    float: right;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    border: 0;
+    width: 560px;
+}
+
+.clear{
+    clear: both;
+}
+
+.features{
+    border-color: #CCC #999 #999 #CCC;
+    border: 1px solid #CCC;
+    padding-top: 0;
+    padding-right: 20;
+    float: left;
+    height: 315px;
+    width: 320px;
+}
+
+.header h1{
+    background-image: url("../images/logo.jpg");
+    background-repeat: no-repeat;
+    padding: 0;
+    margin-bottom: 0;
+    height: 90;
+    float: left;
+    width: 700px;
+}
+
+
+ul {list-style-type:square;}
+
+.place {
+    border-color: #CCC #999 #999 #CCC;
+    border: 1px solid #CCC;
+    padding-top: 0;
+    padding-left: 10;
+}
+
+body {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana,sans-serif;
+    line-height: 1.6;
+}
+
+.menu ul{
+    height: 35px;
+    list-style:none;
+    padding: 0;
+    width: 960px;
+    background-color: #15a2db;
+    color: white;
+    border: 1px solid rgba(0,0,0,0.3);
+}
+
+.blue{
+    color: #15a2db;
+}
+
+
+.menu li:first-child {
+    border-left: none;
+}
+.menu li:last-child  {
+    border-right: none;
+}
+
+.menu li {
+    border-left: 1px solid rgba(255,255,255, 0.3);
+    border-right: 1px solid rgba(0,0,0, 0.3);
+    float: left;
+    line-height: 35px;
+    font-size: 0.9em;
+    width: 100px;
+    text-align: center;
+}
+
+.place li{
+  margin: 20;
+  list-style: none;
+
+}
+
+.menu a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    text-decoration: underline;
+}
+
+.button a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.button a:hover{
+    text-decoration: underline;
+}
+
+
+
+.button{
+
+    font:bold 21px "Lucida Grande", "Lucida Sans Unicode", Verdana,sans-serif;
+    font-style:normal;
+    color:#ffffff;
+    background:#15a2db;
+    border:0px inset #ffffff;
+    text-shadow:0px -1px 1px #222222;
+    box-shadow:4px 4px 2px #000000;
+    -moz-box-shadow:4px 4px 2px #000000;
+    -webkit-box-shadow:4px 4px 2px #000000;
+    border-radius:0px 30px 0px 30px;
+    -moz-border-radius:0px 30px 0px 30px;
+    -webkit-border-radius:0px 30px 0px 30px;
+    width:182px;
+    padding:30px 43px;
+    cursor:pointer;
+    margin:0 auto;
+}
+.button:active{
+    cursor:pointer;
+    position:relative;
+    top:2px;
+}
